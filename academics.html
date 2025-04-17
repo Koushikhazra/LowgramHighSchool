@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics | Government High School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header (same as index.html) -->
+    <div class="top-header">
+        <div class="container header-container">
+            <div class="school-logo">
+                <img src="images/school-logo.jpg" alt="West Bengal Government Logo">
+            </div>
+            <div class="school-info">
+                <h1>Lowgram High School</h1>
+                <p>Village - Lowgram, District - Bankura, West Bengal</p>
+                <p>Established: 2008 </p>
+            </div>
+            <div class="social-media">
+                <a href="https://facebook.com/yourschool" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/yourschool" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://youtube.com/yourschool" target="_blank" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com/yourschool" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:your@school.edu" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation (same as index.html) -->
+    <nav class="main-nav">
+        <div class="container ">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li class="active"><a href="academics.html"><i class="fas fa-book"></i> Academics</a></li>
+                <li><a href="notifications.html"><i class="fas fa-bell"></i> Notice</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Notification Bar (same as index.html) -->
+    <div class="notification-bar">
+        <div class="container">
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <span class="notification-item">• 1st Summative Examination 2025 will start from 03th April</span>
+                <span class="notification-item">• Morning School will be start  from 10 April</span>
+                <span class="notification-item">•  Summer vacation will begin from 30 April</span>
+            </marquee>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container ">
+        <section class="page-header hello">
+            <h1>Academics</h1>
+            <p>Our academic programs and resources</p>
+        </section>
+
+        <section class="academic-programs hello">
+            <h2 class="section-title">Academic Programs</h2>
+            
+            <div class="program-tabs">
+              
+                <button class="tab-btn active" onclick="openProgram('upper-primary')">Upper Primary (V-VIII)</button>
+                <button class="tab-btn" onclick="openProgram('secondary')">Secondary (IX-X)</button>
+                
+              
+            </div>
+
+            
+
+            <div id="upper-primary" class="tab-content active">
+                <h3>Upper Primary Education (Classes VI-VIII)</h3>
+                <p>The upper primary section builds on foundational knowledge with more specialized subjects and introduction to science and social studies.</p>
+                
+                <div class="curriculum">
+                    <h4>Curriculum:</h4>
+                    <ul>
+                        <li>First Language: Bengali</li>
+                        <li>Second Language: English</li>
+                        
+                        <li>Mathematics</li>
+                        <li>  Science</li>
+                        <li>History</li>
+                       
+                        <li>Geography</li>
+                        <li>Computer Education</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="secondary" class="tab-content">
+                <h3>Secondary Education (Classes IX-X)</h3>
+                <p>Secondary education prepares students for the Madhyamik Pariksha (Class X Board Examination) conducted by WBBSE.</p>
+                
+                <div class="curriculum">
+                    <h4>Curriculum (As per WBBSE):</h4>
+                    <ul>
+                        <li>First Language: Bengali</li>
+                        <li>Second Language: English</li>
+                        <li>Mathematics</li>
+                        <li>Physical Science</li>
+                        <li>Life Science</li>
+                        <li>History</li>
+                        <li>Geography</li>
+                        <li>Optional Subject (Choose one):
+                            <ul>
+                                <li>Computer Application</li>
+                                <li>Economics</li>
+                                <li>Work Education</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+             
+
+                 
+        </section>
+
+        <section class="academic-calendar">
+            <h2 class="section-title">Academic Calendar 2025-26</h2>
+            <div class="calendar-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Events</th>
+                            <th>Holidays</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>New session begins</td>
+                            <td>14th - Dr. Ambedkar Jayanti</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>Unit Test I</td>
+                            <td>1st - May Day</td>
+                        </tr>
+                        <!-- More months -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="exam-section">
+            <h2 class="section-title">Examination System</h2>
+            <div class="exam-cards">
+                <div class="exam-card">
+                    <h3>Formative Assessment</h3>
+                    <p>Regular class tests, quizzes, projects and assignments conducted throughout the year.</p>
+                </div>
+                <div class="exam-card">
+                    <h3>Summative Assessment</h3>
+                    <p>Half-yearly and Annual examinations conducted as per WBBSE/WBCHSE guidelines.</p>
+                </div>
+                <div class="exam-card">
+                    <h3>Evaluation</h3>
+                    <p>Grading system as per state board norms with comprehensive evaluation of students.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="download-section">
+            <h2 class="section-title">Downloads</h2>
+            <div class="download-links">
+                
+                <a href="downloads/syllabus-secondary.pdf" class="download-btn">
+                    <i class="fas fa-file-pdf"></i>   Syllabus for class V to VIII
+                </a>
+                <a href="downloads/hs-syllabus.pdf" class="download-btn">
+                    <i class="fas fa-file-pdf"></i>     Syllabus for class IX -X
+                </a>
+                <a href="downloads/academic-calendar.pdf" class="download-btn">
+                    <i class="fas fa-file-pdf"></i> Academic Calendar
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About School</h3>
+                    <p>Lowgram High School, Lowgram is a premier educational institution under the Government of West Bengal.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="notifications.html">Notifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Lowgram, Bankura, WB - 722141</p>
+                    <p><i class="fas fa-phone"></i> +91 7908715374</p>
+                    <p><i class="fas fa-envelope"></i> lawgramhighschool@gmail.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Lowgram High School, Lowgram. All Rights Reserved.</p>
+                <p>Developed with koushik</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        function openProgram(programName) {
+            // Tab functionality for academic programs
+            const tabContents = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active");
+            }
+            
+            const tabBtns = document.getElementsByClassName("tab-btn");
+            for (let i = 0; i < tabBtns.length; i++) {
+                tabBtns[i].classList.remove("active");
+            }
+            
+            document.getElementById(programName).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+        
+        function openStream(streamName) {
+            // Tab functionality for streams
+            const streamContents = document.getElementsByClassName("stream-content");
+            for (let i = 0; i < streamContents.length; i++) {
+                streamContents[i].classList.remove("active");
+            }
+            
+            const streamBtns = document.getElementsByClassName("stream-btn");
+            for (let i = 0; i < streamBtns.length; i++) {
+                streamBtns[i].classList.remove("active");
+            }
+            
+            document.getElementById(streamName).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>
